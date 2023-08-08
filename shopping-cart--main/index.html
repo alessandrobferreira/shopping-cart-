@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <!-- Required Meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Page Title -->
+  <title>Shopping Cart</title>
+
+  <!-- Scripts JS -->
+  <script src="./helpers/fetchItem.js" defer></script>
+  <script src="./helpers/fetchProducts.js" defer></script>
+  <script src="./helpers/saveCartItems.js" defer></script>
+  <script src="./helpers/getSavedCartItems.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <section class="container">
+    <section class="items"></section>
+    <section class="cart">
+      <span class="cart__title">Carrinho de compras</span>
+      <button class="empty-cart">Esvaziar carrinho</button>
+      <ol class="cart__items"></ol>
+      <h1>Subtotal: R$ <span class="total-price">0.00</span></h1>
+    </section>
+  </section>
+</body>
+</html>
